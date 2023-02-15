@@ -1,0 +1,5 @@
+package com.Aspire.Empmanagement.Exception;
+
+public class ExceptionHandling {
+
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Core Java\SpringBootWithThymeleaf\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+107573622.index
+3462522870.index
+3411077847.index
+2851604043.index
+3440770020.index
+275782796.index
+2242740152.index

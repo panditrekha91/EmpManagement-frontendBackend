@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmpmanagementApplicationTests" project="Empmanagement" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.Aspire.Empmanagement.EmpmanagementApplicationTests" time="0.239" displayname="EmpmanagementApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.Aspire.Empmanagement.EmpmanagementApplicationTests]">
+    <testcase name="forSaveEmp" classname="com.Aspire.Empmanagement.EmpmanagementApplicationTests" time="0.239" displayname="forSaveEmp()" uniqueid="[engine:junit-jupiter]/[class:com.Aspire.Empmanagement.EmpmanagementApplicationTests]/[method:forSaveEmp()]"/>
+  </testsuite>
+</testrun>
