@@ -14,6 +14,8 @@ public class EmpmanagementApplication {
 		SpringApplication.run(EmpmanagementApplication.class, args);
 		System.out.println("i am here...");
 		
+		// here add validations,@Notblank, max,min,email
+		//exception handling
 		
 		
 					

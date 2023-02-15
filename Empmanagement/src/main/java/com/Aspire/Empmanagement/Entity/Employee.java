@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
 @Entity
@@ -20,7 +22,8 @@ public class Employee {
 	@NotBlank(message="name should not empty")
 	private String name;
 	
-	
+	@Min(1000)
+	@Max(100000)
 	private double salary;
 	
 	
