@@ -2,10 +2,13 @@ package com.Aspire.Empmanagement.Entity;
 
 import java.time.LocalDate;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 
@@ -13,9 +16,17 @@ public class Employee {
 	@Id
 	@GeneratedValue(strategy= GenerationType.AUTO)
 	private long empid;
+	
+	@NotBlank(message="name should not empty")
 	private String name;
+	
+	
 	private double salary;
+	
+	
 	private LocalDate joindate;
+	
+	@Email(message=" Enter correct email id")
 	private String email;
 	
 	

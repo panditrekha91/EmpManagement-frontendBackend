@@ -3,6 +3,8 @@ package com.Aspire.Empmanagement.controller;
 import java.time.LocalDate;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,7 +28,7 @@ public class Empcontroller {
 	private EmpRepo obj;
 	
 	@PostMapping("/add-employee")
-	public String addEmprecord(@RequestBody Employee adde)
+	public String addEmprecord(@Valid @RequestBody Employee adde)
 	{
 		obj.save(adde);
 		return "employee add successfully";
